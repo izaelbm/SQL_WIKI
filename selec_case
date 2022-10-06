@@ -1,0 +1,7 @@
+CASE MAR_STATUS
+	WHEN '22' THEN 'Matricula Nao Cadastrada'
+	WHEN '26' THEN 'Entrar Sem Sair'
+	WHEN '28' THEN 'Sair Sem Entrar'
+	WHEN '20' THEN 'Desistencia do Acesso'
+	WHEN '29' THEN 'Dispositivo Fora de Repouso'
+	ELSE MAR_STATUS END MAR_STATUS,
